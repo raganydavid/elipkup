@@ -25,6 +25,6 @@ calcButtonElem.addEventListener('click', function() {
 });
 
 function calcVolumetric(r_1, r_2, h) {
-    let terfogat =  ( (1/3) * Math.PI * r_1 * r_2 * h);
-    return terfogat.toFixed(3);
+    let volume =  ( (1/3) * Math.PI * r_1 * r_2 * h);
+    return volume.toFixed(3);
 }
